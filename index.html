@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>world editor</title>
+</head>
+<body>
+    <h1>world editor</h1>
+    <canvas id="myCanvas"></canvas>
+    <link rel = "stylesheet" href = "style.css">
+   <script src="js/math/graph.js"></script>
+   <script>
+        myCanvas.width = 600;
+        myCanvas.height = 600
+
+        const ctx = myCanvas.getContext("2d")
+        const graph = new Graph();
+        graph.draw(ctx)        
+    </script>
+</body>
+</html>
